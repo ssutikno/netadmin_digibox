@@ -14,6 +14,8 @@ session_start();
 	<div class="container">
 		<h2>LIBRO SIMPLE NET ADMIN</h2><br>
 		<?php
+		include "config.php";
+		
 		if(isset($_POST['dns'])){
 				$file = fopen('/etc/librohosts',"w");
 				$text = $_POST["dns"];

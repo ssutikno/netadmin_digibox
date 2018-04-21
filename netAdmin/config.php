@@ -1,10 +1,6 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-</head>
-
-<body>
-</body>
-</html>
+<?php
+  if(!fileexist('/etc/librohosts')){
+      $librohosts = '192.168.100.1 digibox.id';
+      file_put_contents('/etc/librohosts', $librohosts);
+  }
+?>

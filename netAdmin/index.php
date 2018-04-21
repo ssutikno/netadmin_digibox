@@ -201,11 +201,19 @@ session_start();
 					  </tbody>
 				  </table>
 			</div>
+			<!--
+				VirtualBOX TAB
+			-->			
+			
 			<div class="tab-pane fade" id="nav-vbox" role="tabpanel" aria-labelledby="nav-vbox-tab">
 				<br>
 				<h2>Virtual Machines</h2><br><br>
 				<input type="button" class="btn btn-info" value="Start" onclick=" relocate_home()">
 			</div>
+
+			<!--
+				Contact TAB
+			-->			
 			<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
 				<br>
 				<h2>Contact</h2>
